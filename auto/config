@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--distribution wheezy \
+	--architectures i386 \
+	--archive-areas "main contrib non-free" \
+	--linux-flavours 686-pae \
+	--bootappend-live "boot=live config noeject hostname=PFRC username=artemis" \
+	--bootloader syslinux \
+	-b hdd \
+	"${@}"

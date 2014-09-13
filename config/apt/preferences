@@ -1,0 +1,40 @@
+Package: libreoffice*
+Pin: version *
+Pin-Priority: -1
+
+Package: epdfview
+Pin: version *
+Pin-Priority: -1
+
+Package: hunspell*
+Pin: version *
+Pin-Priority: -1
+
+Package: hyhen*
+Pin: version *
+Pin-Priority: -1
+
+Package: mythes*
+Pin: version *
+Pin-Priority: -1
+
+Package: mousepad
+Pin: version *
+Pin-Priority: -1
+
+Package: quodilbet
+Pin: version *
+Pin-Priority: -1
+
+Package: xsane
+Pin: version *
+Pin-Priority: -1
+
+Package: vlc
+Pin: version *
+Pin-Priority: -1
+
+Package: system-config-printer
+Pin: version *
+Pin-Priority: -1
+

@@ -1,0 +1,4 @@
+# <file system> 		<mount point>   <type>  <options>		       <dump>  <pass>
+/lib/live/mount/medium/home.img	/mnt/homeRO	ext4	ro,auto				0	0
+none				/mnt/ramFS	tmpfs	size=50M			0	0
+none				/home		aufs	br:/mnt/ramFS:/mnt/homeRO=ro	0	0
