@@ -12,6 +12,9 @@ You need to create the home.img so it contains the home directory of a user that
 This is so it's easy to setup, but I'm not giving out artemis, as it's a thing you need to have paid for.
 Setup
 ----
+
+Notice: Written from memory, currently untested
+
 ```sh
 git clone [git-repo-url] liveArtemis
 cd liveArtemis
